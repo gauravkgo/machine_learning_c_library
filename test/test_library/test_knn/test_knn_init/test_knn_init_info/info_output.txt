@@ -1,0 +1,4 @@
+KNN Classifier Data at 0x600001ce8180:
+	k: 5
+	Number of samples: 0
+End of program.

@@ -1,0 +1,4 @@
+KNN Classifier Data at 0xsomeaddress:
+	k: 5
+	Number of samples: 0
+End of program.

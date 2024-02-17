@@ -1,0 +1,12 @@
+
+Testing started on 2024-02-17 12:22:19.
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_classify/test_knn_classify_k10/run_test.sh:
+Testing...
+Test standard output does not match with correct_output.txt.
+Test standard error does not match with expected_errors.txt.
+Failed.
+––––––––––––––––––––––––––––––––
+Summary:
+--  Total: 1  --  Passed: 0  --  Failed: 1  --
+

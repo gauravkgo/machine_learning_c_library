@@ -1,0 +1,52 @@
+
+Testing started on 2024-02-15 15:12:35.
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_init/test_knn_init_noerr/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_init/test_knn_init_info/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_info/test_knn_info_init/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_info/test_knn_info_noninit/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_train/test_knn_train_1/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_create/test_knn_create_fptrs/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_create/test_knn_create_01/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_library/test_csv2tbl/test_csv2tbl_fields/run_test.sh:
+Testing...
+Test standard output does not match with correct_output.txt.
+Failed.
+––––––––––––––––––––––––––––––––
+test/test_library/test_csv2tbl/test_csv2tbl_create/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_library/test_csv2tbl/test_csv2tbl_print/run_test.sh:
+Testing...
+Test standard output does not match with correct_output.txt.
+Failed.
+––––––––––––––––––––––––––––––––
+test/test_library/test_csv2tbl/test_csv2tbl_delete/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+Summary:
+--  Total: 11  --  Passed: 9  --  Failed: 2  --
+

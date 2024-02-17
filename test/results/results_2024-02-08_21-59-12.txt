@@ -1,0 +1,27 @@
+
+Testing started on 2024-02-08 21:59:12.
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_create/run_test.sh:
+Testing...
+Test standard output does not match with correct_output.txt.
+Failed.
+––––––––––––––––––––––––––––––––
+test/test_test/one_upper_test/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_test/upper_testsuite/test1/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_test/upper_testsuite/test2/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+test/test_test/upper_testsuite/testsuite3/testsuite_med/test_4/run_test.sh:
+Testing...
+Passed!
+––––––––––––––––––––––––––––––––
+Summary:
+--  Total: 5  --  Passed: 4  --  Failed: 1  --
+

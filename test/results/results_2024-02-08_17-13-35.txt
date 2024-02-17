@@ -1,0 +1,30 @@
+
+Testing started on 2024-02-08 17:13:35.
+––––––––––––––––––––––––––––––––
+test/test_test/one_upper_test/run_test.sh:
+Testing...
+Test standard output does not match with correct_output.txt.
+Test standard error does not match with expected_errors.txt.
+Failed.
+––––––––––––––––––––––––––––––––
+test/test_test/upper_testsuite/test1/run_test.sh:
+Testing...
+Test standard output does not match with correct_output.txt.
+Test standard error does not match with expected_errors.txt.
+Failed.
+––––––––––––––––––––––––––––––––
+test/test_test/upper_testsuite/test2/run_test.sh:
+Testing...
+Test standard output does not match with correct_output.txt.
+Test standard error does not match with expected_errors.txt.
+Failed.
+––––––––––––––––––––––––––––––––
+test/test_test/upper_testsuite/testsuite3/testsuite_med/test_4/run_test.sh:
+Testing...
+Test standard output does not match with correct_output.txt.
+Test standard error does not match with expected_errors.txt.
+Failed.
+––––––––––––––––––––––––––––––––
+Summary:
+--  Total: 4  --  Passed: 0  --  Failed: 4  --
+

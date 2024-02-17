@@ -1,0 +1,7 @@
+Table successfully created.
+150 rows and 2 columns.
+Column labels exist : 1
+Samples exist : 1
+Sample classes exist : 1
+Last sample : virginica: 5.900000, 3.000000
+End of program.

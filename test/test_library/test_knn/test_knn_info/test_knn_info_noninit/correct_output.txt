@@ -1,0 +1,2 @@
+Error: KNN classifier data is not initialised.
+End of program.

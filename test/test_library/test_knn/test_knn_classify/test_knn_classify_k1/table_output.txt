@@ -1,4 +1,4 @@
-Table at 0x6000010475e0:
+Table at 0x6000014275e0:
 Class	sepal length (cm)	sepal width (cm)	petal length (cm)	petal width (cm)
 setosa	5.800000	4.000000	1.200000	0.200000
 setosa	4.700000	3.200000	1.600000	0.200000

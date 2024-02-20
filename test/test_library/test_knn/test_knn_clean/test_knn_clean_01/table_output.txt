@@ -1,0 +1,2 @@
+Knn delete exit code: 0
+End of program.

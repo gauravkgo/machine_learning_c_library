@@ -96,14 +96,17 @@ int knn_classify(classifier* self, table* classifying_table)
     );
 
   free(shared_storage_of_distances);
-  free(new_copy_class_labels);
+  delete_labels(new_copy_class_labels, data -> number_of_reference_samples);
 
   return NO_ERROR;
 }
 
 int knn_clean(classifier* self)
 {
-  return UNIMPLEMENTED;
+  clean_knn_data(get_knn_data(self));
+  (void) memset(self, 0, sizeof(classifier));
+  free(self);
+  return NO_ERROR;
 }
 
 
@@ -203,4 +206,12 @@ void debugging_print_str_array(char** str_array, int str_array_length)
   return;
 }
 
-
+void clean_knn_data(knn_data* data)
+{
+  if (data == 0) return;
+  if (data -> reference_samples != 0) delete_vector_array(data -> reference_samples, data -> number_of_reference_samples);
+  if (data -> reference_labels != 0) delete_labels(data -> reference_labels, data -> number_of_reference_samples);
+  (void) memset(data, 0, sizeof(knn_data));
+  free(data);
+  return;
+}

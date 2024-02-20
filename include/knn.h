@@ -57,6 +57,7 @@ void store_labels_of_k_shortest_distances(knn_data* data, char** train_labels_co
 char* get_mode_of_k_labels(char** k_labels, int k);
 void debugging_print_scalar_array(scalar* scalar_array, int scalar_array_length);
 void debugging_print_str_array(char** str_array, int str_array_length);
+void clean_knn_data(knn_data* data);
 
 
 

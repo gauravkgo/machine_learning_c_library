@@ -190,6 +190,7 @@ classifier* create_classifier(classifier_type type_of_classifer)
       new_classifier -> clean = &knn_clean;
       break;
     default:
+      (void) memset(new_classifier, 0, sizeof(classifier));
       free(new_classifier);
       new_classifier = 0;
       break;
@@ -203,7 +204,7 @@ int delete_classifier(classifier* self)
   int exit_code;
   if (self == 0) return INPUT_ERROR;
   if (self -> clean == 0) return GENERAL_ERROR;
-  exit_code = self -> clean(self);
+  exit_code = (self -> clean)(self);
   return exit_code;
 }
 

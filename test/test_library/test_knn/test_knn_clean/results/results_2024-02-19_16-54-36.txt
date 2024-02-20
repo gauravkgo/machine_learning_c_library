@@ -1,0 +1,11 @@
+
+Testing started on 2024-02-19 16:54:36.
+––––––––––––––––––––––––––––––––
+test/test_library/test_knn/test_knn_clean/test_knn_clean_01/run_test.sh:
+Testing...
+Test standard output does not match with correct_output.txt.
+Failed.
+––––––––––––––––––––––––––––––––
+Summary:
+--  Total: 1  --  Passed: 0  --  Failed: 1  --
+
